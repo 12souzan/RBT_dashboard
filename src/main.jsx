@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import './index.css'
 import App from './App.jsx'
-import { ToneProvider } from './context/toneContext.jsx';
+import { ToneProvider } from './context/ToneContext.jsx';
 import { BundleProvider } from './context/BundleContext.jsx';
 import { AlbumProvider } from './context/AlbumContext.jsx';
 
